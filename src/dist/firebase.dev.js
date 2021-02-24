@@ -16,13 +16,14 @@ require("firebase/database");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var firebaseApp = _app["default"].initializeApp({
-  apiKey: "AIzaSyBxymn1K0veZX5a6FNZza2Uz2P0vaONDrU",
-  authDomain: "minor-8e390.firebaseapp.com",
-  projectId: "minor-8e390",
-  storageBucket: "minor-8e390.appspot.com",
-  messagingSenderId: "1068167780817",
-  appId: "1:1068167780817:web:4717ad10091bb864e3a8f0",
-  measurementId: "G-C7Q5YQBTM4"
+  apiKey: "AIzaSyBvkUMaV-U3zLS32we1Gpxc2i9eIseb3Ac",
+  authDomain: "mumble-f5b70.firebaseapp.com",
+  databaseURL: "https://mumble-f5b70-default-rtdb.firebaseio.com",
+  projectId: "mumble-f5b70",
+  storageBucket: "mumble-f5b70.appspot.com",
+  messagingSenderId: "595927879007",
+  appId: "1:595927879007:web:d39701c23e30aedda0faea",
+  measurementId: "G-WD2GDSWNWW"
 });
 
 var db = firebaseApp.firestore();
