@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Rooms.css'
-import {db, auth} from '../firebase'
+import {db} from '../firebase'
 import Room from './Room';
 import cx from "classnames";
 import { useStateValue } from '../StateProvider';
