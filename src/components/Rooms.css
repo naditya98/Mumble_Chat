@@ -1,0 +1,61 @@
+.rooms {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    max-width: 400px;
+    min-width: 250px;
+    background-color: var(--grey);
+    height: calc(100vh - 131px);
+    overflow: hidden;
+    overflow-y: auto;
+    transition: width 700ms, max-width 700ms, min-width 700ms;  
+}
+
+.menu {
+    width: calc(100% - 40px);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    border-bottom: 1px solid var(--dark);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logout {
+	cursor: pointer;
+	color: var(--white);
+	font-size: 15px;
+	background: var(--gradient);
+    border: none;
+	padding: 5px 10px;
+	float: right;
+	border-radius: 25px;
+	font-size: 1.2em;
+    transition: 200ms ease-in-out;
+}
+
+.logout:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.placeholder {
+    width: calc(100% - 40px);
+    padding-top: 90px;
+    display: block;
+}
+
+.close, .open {
+    max-width: 400px;
+    min-width: 250px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .close {
+        width: 0px;
+        max-width: 0px;
+        min-width: 0px;
+    }
+
+}
