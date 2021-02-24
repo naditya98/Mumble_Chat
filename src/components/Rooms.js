@@ -28,7 +28,7 @@ function Rooms() {
     return (
         <div id="rooms" className={cx("rooms","close")}>
             <div className="menu">
-                {user ? <div className="logbutton"><button onClick={handleAuthenticaton} className="logout">Logout</button></div>: ""}
+                    <a href="https://mummblly.herokuapp.com/"> ❤(̶◉͛‿◉̶)❤Random Chat</a>
             </div>
             <Room addNewRoom />
             {rooms.map(room => (

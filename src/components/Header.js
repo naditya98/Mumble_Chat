@@ -11,13 +11,10 @@ function Header() {
                 <div className="line-3"></div>
             </div>
             <h1 className="logo">
-                <a href="https://www.google.com/">MUMBLE</a>
+                <a href="/">MUMBLE</a>
             </h1>
             {/* {user ? <div className="button"><button onClick={handleAuthenticaton} className="logout">Logout</button></div>: ""} */}
             <div id="modeToggle" className="modeToggle"><i className="far fa-moon"></i></div>
-            <h4 className="logo_m">
-                <a href="https://mummblly.herokuapp.com/"> ❤ (̶◉͛‿◉̶) ❤      </a>
-            </h4>
         </div>
     )
 }
