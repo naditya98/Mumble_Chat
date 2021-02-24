@@ -19,12 +19,6 @@ function Rooms() {
         )));
     }, [])
 
-    const handleAuthenticaton = () => {
-		if (user) {
-			auth.signOut();
-		}
-	};
-
     return (
         <div id="rooms" className={cx("rooms","close")}>
             <div className="menu">
