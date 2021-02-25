@@ -25,6 +25,15 @@
     transform: scale(1.1);
 }
 
+.menu_m{
+    width: calc(100% - 40px);
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    border-bottom: 1px solid var(--dark);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
 .logout {
     cursor: pointer;
     color: var(--white);

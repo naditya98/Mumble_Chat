@@ -56,7 +56,7 @@ function Login() {
 		<div className="login">
 			<div className="loginContainer">
 				<img src={logo} width="150" alt="logo" />
-				<h1>"Welcome to chat Sign in "</h1>
+				<h1>"Welcome Again ! "</h1>
 
 				<form>
 					<h5>E-mail</h5>

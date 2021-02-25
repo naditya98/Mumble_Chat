@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Rooms.css'
-import {db} from '../firebase'
+import {db,auth} from '../firebase'
 import Room from './Room';
 import cx from "classnames";
 import { useStateValue } from '../StateProvider';
@@ -19,10 +19,19 @@ function Rooms() {
         )));
     }, [])
 
+    const handleAuthenticaton = () => {
+		if (user) {
+			auth.signOut();
+		}
+	};
+
     return (
         <div id="rooms" className={cx("rooms","close")}>
             <div className="menu">
                     <a href="https://mummblly.herokuapp.com/"> ❤(̶◉͛‿◉̶)❤Random Chat</a>
+            </div>
+            <div className="menu_m">
+                {user ? <div className="logbutton"><button onClick={handleAuthenticaton} className="logout">Logout</button></div>: ""}
             </div>
             <Room addNewRoom />
             {rooms.map(room => (
