@@ -56,7 +56,7 @@ function Login() {
 		<div className="login">
 			<div className="loginContainer">
 				<img src={logo} width="150" alt="logo" />
-				<h1>Sign in to Message Me</h1>
+				<h1>"Welcome to chat Sign in "</h1>
 
 				<form>
 					<h5>E-mail</h5>
@@ -89,7 +89,7 @@ function Login() {
 					<i className="fab fa-google"></i> Sign In with Google
 				</button>
 				<p>
-					Disclaimer: This is an unmonitored messaging app and is created for demostration purposes only. So if you want to use this please use it carefully .Don't spam anything bad here. ❤Happy Mumbly❤
+					Disclaimer: This is an unmonitored messaging app called Mumble_chat and is created for demostration purposes only. So it is one time login process once you login it will always going to save for you . Happy Mumblling ❤
 				</p>
 			</div>
 		</div>
